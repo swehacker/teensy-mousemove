@@ -4,6 +4,8 @@
  * 
  * The button needs a pull-up resistor of 10KOhm, when it is pressed the voltage drops and the interupt is triggered,
  * toggling the mouse move routine on/off.
+ * 
+ * When the mouse is moving the internal LED is on.
  */
 const int LED = 13;
 const int BUTTON = 12;
